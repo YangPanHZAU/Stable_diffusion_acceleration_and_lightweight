@@ -42,6 +42,7 @@ The prediction type of stable diffusion consist of 'epsilon','sample', and 'v_pr
 1. The high quality and large scale image-text dataset are counstructed from Laion-art, MSCOCO, DiffunsionDB and HPSV2. For the quality of image, the hpsv2 score is used for evaluate the human references. More detail information can be found in <a href='https://github.com/tgxs002/HPSv2'>HPSv2</a>.For the quality of prompts, the minigpt, blip are used to clean the prompts, the process follows the work:<a href='https://huggingface.co/datasets/recastai/LAION-art-EN-improved-captions'>recastai/LAION-art-EN-improved-captions</a>.
 
 ### Step distillation for guided T2I diffusion models:
+![T2I model](asset/framework.jpg)
 Algorithm Description:
 
 ## Result
